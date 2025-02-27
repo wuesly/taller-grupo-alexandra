@@ -1,0 +1,11 @@
+CREATE DATABASE BDRoles;
+USE BDRoles;
+
+CREATE TABLE Roles (
+    id_Rol INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    descripcion TEXT
+);
+DROP DATABASE BDRoles;
+
+
